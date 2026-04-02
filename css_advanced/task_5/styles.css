@@ -226,3 +226,49 @@ body > div > div > div:last-of-type p {
     color: #C271FF;
     margin: 0;
 }
+
+/* SECTION MEMBERSHIP */
+body > section:last-of-type {
+    background-color: #071629;
+    color: white;
+    text-align: center;
+    padding: 80px 10%;
+}
+
+body > section:last-of-type h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 0 60px;
+}
+
+body > section:last-of-type > div {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 50px;
+}
+
+body > section:last-of-type > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+body > section:last-of-type > div > div img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+body > section:last-of-type > div > div h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+body > section:last-of-type > div > div p {
+    font-size: 14px;
+    margin: 0;
+    opacity: 0.8;
+}
